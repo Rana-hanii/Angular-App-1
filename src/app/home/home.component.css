@@ -1,0 +1,12 @@
+section{
+    background-color: #1abc9c;
+    padding: 100px 0;
+    height: 95vh;
+}
+.h-size{
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+img{
+    width:250px 
+}

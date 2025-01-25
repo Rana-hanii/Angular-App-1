@@ -1,0 +1,14 @@
+span::before {
+  content: "";
+  display: inline-block;
+  width: 7%;
+  height: 4px;
+  background-color: white;
+  margin-bottom: 3px;
+}
+@media screen and (max-width: 768px) {
+  span::before{
+    width: 20%;
+  }
+  
+}

@@ -1,0 +1,83 @@
+<section>
+    <div class="container">
+        <div class="header my-4">
+            <h2 class="text-uppercase text-center fs-1">portfolio component</h2>
+            <div class="style">
+                <div class="text-center">
+                    <span class="mx-4"></span>
+                    <i class="fa-solid fa-star fs-5 text-dark"></i>
+                    <span class="mx-4"></span>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4  p-4 " (click)="openLightbox('images/poert1.png')">
+                <div class="imag position-relative ">
+                    <img src="images/poert1.png" class="rounded-3" alt="">
+                    <div
+                        class="layer position-absolute rounded-3 d-flex justify-content-center align-items-center top-0 start-0 w-100 h-100">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-4" (click)="openLightbox('images/port2.png')">
+                <div class="imag position-relative ">
+                    <img src="images/port2.png" class="rounded-3" alt="">
+                    <div
+                        class="layer position-absolute rounded-3 d-flex justify-content-center align-items-center top-0 start-0 w-100 h-100">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-4" (click)="openLightbox('images/port2.png')">
+                <div class="imag position-relative ">
+                    <img src="images/port3.png" class="rounded-3" alt="">
+                    <div
+                        class="layer position-absolute rounded-3 d-flex justify-content-center align-items-center top-0 start-0 w-100 h-100">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-4 " (click)="openLightbox('images/port2.png')">
+                <div class="imag position-relative ">
+                    <img src="images/poert1.png" class="rounded-3" alt="">
+                    <div
+                        class="layer position-absolute rounded-3 d-flex justify-content-center align-items-center top-0 start-0 w-100 h-100">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-4" (click)="openLightbox('images/port2.png')">
+                <div class="imag position-relative ">
+                    <img src="images/port2.png" class="rounded-3" alt="">
+                    <div
+                        class="layer position-absolute rounded-3 d-flex justify-content-center align-items-center top-0 start-0 w-100 h-100">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 p-4" (click)="openLightbox('images/port2.png')">
+                <div class="imag position-relative ">
+                    <img src="images/port3.png" class="rounded-3" alt="">
+                    <div
+                        class="layer position-absolute rounded-3 d-flex justify-content-center align-items-center top-0 start-0 w-100 h-100">
+                        <i class="fa-solid fa-plus"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Ligth box -->
+    <div id="lightbox" class="lightbox position-fixed top-0 start-0 w-100 h-100 d-flex justify-content-center align-items-center bg-primary bg-opacity-50" [class]="{'d-block':displayLightbox==true
+        ,'d-none':displayLightbox==false
+    }">
+        <div class=" rounded-3">
+            <div class="d-flex justify-content-end">
+                <i class="fa-solid fa-times fs-3 close" (click)="closeLightbox()"></i>
+            </div>
+            <div class="text-center">
+                <img src="{{ImageSrc}}" class="w-75" alt="">
+            </div>
+        </div>
+    </div>
+</section>

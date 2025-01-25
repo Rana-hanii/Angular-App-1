@@ -1,0 +1,42 @@
+.bg-body-tertiary{
+    background-color: #2C3E50 !important;
+}
+.navbar-brand{
+    color: white !important;
+}
+.nav-link{
+    color: white !important;
+}
+.logo-size{
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+@media screen  and (max-width: 768px){
+    .logo-size{
+        font-size: 24px;
+    }
+    .active{
+        padding: 10px 10px;
+    }
+    .nav-item{
+        text-align: center;
+    }
+}
+.links-size{
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+.active{
+    background-color: #1ABC9C;
+}
+nav {
+    height: 100px; /* Initial height */
+    transition: height 0.5s ease; /* Transition only the height property */
+}
+.navbar-expanded {
+    height: 70px;
+    /* transition: all 0.1s ; */
+}
+

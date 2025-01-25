@@ -1,0 +1,24 @@
+footer{
+    background-color: #2C3E50 !important;
+    color: white !important;
+    text-align: center;
+}
+.row{
+    padding: 90px 0;
+}
+footer i{
+    border: white 1px solid;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+.footer{
+    background-color: #1A252F;
+    color: white;
+}
+@media screen and (max-width: 768px){
+   
+    .p-0{
+        padding: 20px 0px !important;
+    }
+}

@@ -1,0 +1,39 @@
+section{
+    padding-top: 100px;
+    height: 100vh;
+}
+.style span::before {
+    content: "";
+    display: inline-block;
+    width: 7%;
+    height: 4px;
+    background-color: #2C3E50;
+    margin-bottom: 3px;
+}
+h2{
+    color: #2C3E50;
+    font-weight: 700;
+}
+.style i{
+    color: #2C3E50 !important;
+}
+.form-control{
+    border: 0px;
+    border-bottom: #2c3e5034 1px solid;
+}
+.btn-success{
+    background-color: #1ABC9C;
+    border: 1px solid #1ABC9C;
+}
+@media screen  and (max-width: 768px){
+
+    .w-75{
+        width: 100% !important;
+    }
+    .px-5{
+        padding: 0px 5px !important;
+    }
+    .style span::before {
+        width: 20%;
+    }
+}
