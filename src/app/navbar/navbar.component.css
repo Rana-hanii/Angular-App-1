@@ -31,12 +31,14 @@
 .active{
     background-color: #1ABC9C;
 }
+@media screen and (min-width: 768px){
+    
+
 nav {
-    height: 100px; /* Initial height */
-    transition: height 0.5s ease; /* Transition only the height property */
+    height: 70px;
+    transition: all 0.5s;
 }
 .navbar-expanded {
-    height: 70px;
-    /* transition: all 0.1s ; */
+    height: 100px;
 }
-
+}
